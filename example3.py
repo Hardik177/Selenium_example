@@ -30,7 +30,6 @@ time.sleep(3)
 driver.find_element_by_id("btn-book-appointment").click()
 time.sleep(3)
 driver.find_element_by_xpath('//*[@id="summary"]/div/div/div[7]/p/a').click()
-time.sleep(3)
-#close the browser  
+time.sleep(3) 
 driver.close()  
 print("sample test case successfully completed")  
